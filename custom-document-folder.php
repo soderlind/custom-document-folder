@@ -3,7 +3,7 @@
  * Plugin Name: Custom Document Folder
  * Plugin URI: https://github.com/soderlind/custom-document-folder
  * Description: Redirects specific document types to custom folders based on file extensions. Configure document types in Settings > Document Folder.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Per Soderlind
  * Author URI: https://soderlind.no
  * License: GPL v2 or later
