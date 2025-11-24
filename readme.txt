@@ -4,7 +4,7 @@ Tags: uploads, documents, media, folder, organization, file management
 Requires at least: 6.7
 Tested up to: 6.8
 Requires PHP: 8.3
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -115,6 +115,14 @@ The plugin includes non-unique filename handling. Old attachments with the same 
 
 == Changelog ==
 
+= 1.0.1 - 2025-11-24 =
+* Add PHP 8.3 typed properties to class properties
+* Add return type declarations to all methods
+* Add parameter type declarations
+* Add plugin activation hook for default settings
+* Improve PHPDoc annotations with generic types
+* Full PHP 8.3 strict typing compliance
+
 = 1.0.0 - 2025-11-24 =
 * Initial release
 * Modern grid-based settings interface with search functionality
@@ -134,6 +142,9 @@ The plugin includes non-unique filename handling. Old attachments with the same 
 * Namespace: `Soderlind\DocumentFolder`
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+Added PHP 8.3 type declarations and activation hook for improved code quality.
 
 = 1.0.0 =
 Initial release of Custom Document Folder plugin.
