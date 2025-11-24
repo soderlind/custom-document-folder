@@ -1,23 +1,23 @@
 {
-  "name": "custom-document-folder/custom-document-folder",
-  "description": "WordPress plugin that organizes document uploads by file type",
-  "type": "wordpress-plugin",
-  "license": "GPL-2.0-or-later",
-  "require": {
-    "php": ">=7.2"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "^9.0",
-    "mockery/mockery": "^1.4",
-    "brain/monkey": "^2.6"
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "CustomDocumentFolder\\Tests\\": "tests/"
-    }
-  },
-  "scripts": {
-    "test": "phpunit",
-    "test:coverage": "phpunit --coverage-html coverage"
-  }
+	"name": "soderlind/custom-document-folder",
+	"description": "WordPress plugin that organizes document uploads by file type",
+	"type": "wordpress-plugin",
+	"license": "GPL-2.0-or-later",
+	"require": {
+		"php": ">=8.3"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^9.0",
+		"mockery/mockery": "^1.4",
+		"brain/monkey": "^2.6"
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"CustomDocumentFolder\\Tests\\": "tests/"
+		}
+	},
+	"scripts": {
+		"test": "phpunit",
+		"test:coverage": "phpunit --coverage-html coverage"
+	}
 }
