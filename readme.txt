@@ -146,7 +146,7 @@ This plugin follows WordPress best practices:
 * **Security** - Capability checks, input sanitization, output escaping
 * **MIME Validation** - Uses WordPress's allowed MIME types whitelist
 * **Filter Hooks** - Standard upload directory modification hooks
-* **Modern PHP** - PHP 7.4+ with strict types and namespaces
+* **Modern PHP** - PHP 8.3 with strict types and namespaces
 * **Testing** - PHPUnit test suite with Brain Monkey for mocking
 * **Code Standards** - WordPress Coding Standards compliant
 * **Architecture** - Clean class-based structure with proper separation

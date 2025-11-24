@@ -43,7 +43,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Modern WordPress admin styling
 
 ### Technical Details
-- **PHP Version**: 7.4+
+- **PHP Version**: 8.3
 - **WordPress**: Compatible with current versions
 - **Architecture**: Class-based with WordPress hooks pattern
 - **Security**: Uses `sanitize_text_field()` for input sanitization

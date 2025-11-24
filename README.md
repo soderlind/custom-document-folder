@@ -123,7 +123,7 @@ The plugin uses these WordPress hooks:
 
 ### Code Standards
 
-- PHP 7.4+ with strict types and namespaces
+- PHP 8.3 with strict types and namespaces
 - WordPress Coding Standards compliant
 - PHPUnit test coverage
 - Brain Monkey for WordPress function mocking

@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
-        'name' => 'custom-document-folder/custom-document-folder',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'name' => 'soderlind/custom-document-folder',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '6052141577dce6625d3842ed6408f8638dfaa4e9',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -33,15 +33,6 @@
             'replaced' => array(
                 0 => '*',
             ),
-        ),
-        'custom-document-folder/custom-document-folder' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
-            'type' => 'wordpress-plugin',
-            'install_path' => __DIR__ . '/../../',
-            'aliases' => array(),
-            'dev_requirement' => false,
         ),
         'davedevelopment/hamcrest-php' => array(
             'dev_requirement' => true,
@@ -315,6 +306,15 @@
             'install_path' => __DIR__ . '/../sebastian/version',
             'aliases' => array(),
             'dev_requirement' => true,
+        ),
+        'soderlind/custom-document-folder' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '6052141577dce6625d3842ed6408f8638dfaa4e9',
+            'type' => 'wordpress-plugin',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'theseer/tokenizer' => array(
             'pretty_version' => '1.3.1',
