@@ -29,6 +29,7 @@ Custom Document Folder automatically organizes your WordPress media uploads by d
    - Download [`custom-document-folder.zip`](https://github.com/soderlind/custom-document-folder/releases/latest/download/custom-document-folder.zip)
    - Upload via  Plugins > Add New > Upload Plugin
    - Activate the plugin.
+   - Go to **Settings > Document Folder** to configure
 
 - **Composer Install**
 

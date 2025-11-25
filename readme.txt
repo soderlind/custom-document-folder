@@ -53,11 +53,14 @@ For example, if you select PDF and DOCX extensions:
 
 == Installation ==
 
-1. Upload the `custom-document-folder` folder to `/wp-content/plugins/`
-2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Go to Settings > Document Folder to configure file extensions
-4. Select the extensions you want to organize (PDF is pre-selected)
-5. Save your settings
+1. Download [`custom-document-folder.zip`](https://github.com/soderlind/custom-document-folder/releases/latest/download/custom-document-folder.zip)
+2. Upload via  Plugins > Add New > Upload Plugin
+3. Activate the plugin.
+4. Go to Settings > Document Folder to configure file extensions
+5. Select the extensions you want to organize (PDF is pre-selected)
+6. Save your settings
+
+Plugin [updates are handled automatically](https://github.com/soderlind/wordpress-plugin-github-updater#readme) via GitHub. No need to manually download and install updates.
 
 == Frequently Asked Questions ==
 
