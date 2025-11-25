@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2025-11-25
+
+### Added
+- Automatic updates via GitHub releases using [Plugin Update Checker](https://github.com/YahnisElsts/plugin-update-checker) library (v5.6)
+- Plugin now checks for updates from the GitHub repository
+- Users receive update notifications directly in WordPress admin
+- Seamless one-click updates from the Plugins page
+
+### Dependencies
+- Added `yahnis-elsts/plugin-update-checker` ^5.6 via Composer
+
 ## [1.0.1] - 2025-11-24
 
 ### Changed
@@ -77,5 +88,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Settings sanitization: XSS protection tested
 - Upload path modification: Verified for multiple file types
 
+[1.1.0]: https://github.com/soderlind/custom-document-folder/releases/tag/1.1.0
 [1.0.1]: https://github.com/soderlind/custom-document-folder/releases/tag/1.0.1
 [1.0.0]: https://github.com/soderlind/custom-document-folder/releases/tag/1.0.0
