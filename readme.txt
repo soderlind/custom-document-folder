@@ -108,13 +108,6 @@ Yes! Click "Show More Categories" to reveal and select image, video, and audio e
 
 The plugin includes non-unique filename handling. Old attachments with the same filename are automatically removed when you re-upload.
 
-== Screenshots ==
-
-1. Modern settings page with grid-based layout and search functionality
-2. Category organization showing Documents, Text, Archives, and Fonts
-3. Collapsible categories for Audio, Images, Video, and Other extensions
-4. Real-time search filtering extensions and categories
-5. Bulk select/deselect actions and live counter
 
 == Changelog ==
 
