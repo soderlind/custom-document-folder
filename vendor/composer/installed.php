@@ -3,7 +3,7 @@
         'name' => 'soderlind/custom-document-folder',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '6052141577dce6625d3842ed6408f8638dfaa4e9',
+        'reference' => 'f827afcacafa26e71c5767d54be7f740ef4a5544',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -310,7 +310,7 @@
         'soderlind/custom-document-folder' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '6052141577dce6625d3842ed6408f8638dfaa4e9',
+            'reference' => 'f827afcacafa26e71c5767d54be7f740ef4a5544',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -324,6 +324,15 @@
             'install_path' => __DIR__ . '/../theseer/tokenizer',
             'aliases' => array(),
             'dev_requirement' => true,
+        ),
+        'yahnis-elsts/plugin-update-checker' => array(
+            'pretty_version' => 'v5.6',
+            'version' => '5.6.0.0',
+            'reference' => 'a2db6871deec989a74e1f90fafc6d58ae526a879',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../yahnis-elsts/plugin-update-checker',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
     ),
 );

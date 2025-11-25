@@ -4,7 +4,7 @@ Tags: uploads, documents, media, folder, organization, file management
 Requires at least: 6.7
 Tested up to: 6.8
 Requires PHP: 8.3
-Stable tag: 1.0.1
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -115,6 +115,11 @@ The plugin includes non-unique filename handling. Old attachments with the same 
 
 == Changelog ==
 
+= 1.1.0 - 2025-11-25 =
+* Add automatic updates via GitHub releases using Plugin Update Checker library
+* Plugin now checks for updates from GitHub repository
+* Users receive update notifications in WordPress admin
+
 = 1.0.1 - 2025-11-24 =
 * Add PHP 8.3 typed properties to class properties
 * Add return type declarations to all methods
@@ -142,6 +147,9 @@ The plugin includes non-unique filename handling. Old attachments with the same 
 * Namespace: `Soderlind\DocumentFolder`
 
 == Upgrade Notice ==
+
+= 1.1.0 =
+Added automatic updates from GitHub releases. The plugin will now notify you when new versions are available.
 
 = 1.0.1 =
 Added PHP 8.3 type declarations and activation hook for improved code quality.

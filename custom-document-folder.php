@@ -3,7 +3,7 @@
  * Plugin Name: Custom Document Folder
  * Plugin URI: https://github.com/soderlind/custom-document-folder
  * Description: Redirects specific document types to custom folders based on file extensions. Configure document types in Settings > Document Folder.
- * Version: 1.0.1
+ * Version: 1.1.0
  * Author: Per Soderlind
  * Author URI: https://soderlind.no
  * License: GPL v2 or later
@@ -17,6 +17,19 @@ namespace Soderlind\DocumentFolder;
 if ( ! defined( 'ABSPATH' ) ) {
 	wp_die();
 }
+
+require_once __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . '/class-github-plugin-updater.php';
+use Soderlind\DocumentFolder\GitHub_Plugin_Updater;
+
+GitHub_Plugin_Updater::create_with_assets(
+	'https://github.com/soderlind/custom-document-folder',
+	__FILE__,
+	'custom-document-folder',
+	'/custom-document-folder\.zip/',
+	'main'
+);
+
 
 /**
  * Class Upload_Document
