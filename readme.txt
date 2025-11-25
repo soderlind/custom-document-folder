@@ -4,7 +4,7 @@ Tags: uploads, documents, media, folder, organization, file management
 Requires at least: 6.7
 Tested up to: 6.8
 Requires PHP: 8.3
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -53,11 +53,14 @@ For example, if you select PDF and DOCX extensions:
 
 == Installation ==
 
-1. Upload the `custom-document-folder` folder to `/wp-content/plugins/`
-2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Go to Settings > Document Folder to configure file extensions
-4. Select the extensions you want to organize (PDF is pre-selected)
-5. Save your settings
+1. Download [`custom-document-folder.zip`](https://github.com/soderlind/custom-document-folder/releases/latest/download/custom-document-folder.zip)
+2. Upload via  Plugins > Add New > Upload Plugin
+3. Activate the plugin.
+4. Go to Settings > Document Folder to configure file extensions
+5. Select the extensions you want to organize (PDF is pre-selected)
+6. Save your settings
+
+Plugin [updates are handled automatically](https://github.com/soderlind/wordpress-plugin-github-updater#readme) via GitHub. No need to manually download and install updates.
 
 == Frequently Asked Questions ==
 
@@ -115,6 +118,9 @@ The plugin includes non-unique filename handling. Old attachments with the same 
 
 == Changelog ==
 
+= 1.1.1 - 2025-11-25 =
+* Housekeeping
+
 = 1.1.0 - 2025-11-25 =
 * Add automatic updates via GitHub releases using Plugin Update Checker library
 * Plugin now checks for updates from GitHub repository
@@ -147,6 +153,9 @@ The plugin includes non-unique filename handling. Old attachments with the same 
 * Namespace: `Soderlind\DocumentFolder`
 
 == Upgrade Notice ==
+
+= 1.1.1 =
+Housekeeping release.
 
 = 1.1.0 =
 Added automatic updates from GitHub releases. The plugin will now notify you when new versions are available.
